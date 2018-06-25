@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+body{
+    background-image: url(../img/diner.png);
+    background-repeat: repeat;
+    color: white;
+}
+
+.svg {
+    height: 100px;
+    width: 100px;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+.well, .panel-default {
+    background-color:rgba(44, 62,  69, .8);
+    border-color: #ddd;
+    border-spacing: solid;
+    border: 1px solid;
+    color: white;
+}
+
+.panel-default > .panel-heading {
+    background-color: rgb(76, 108, 53, .8);
+    color: white;  
+    }
