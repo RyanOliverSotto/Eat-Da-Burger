@@ -25,14 +25,18 @@ p{
 }
 
 .panel-default > .panel-heading {
-    background-color: rgb(76, 108, 53, .8);
+    background-color: rgb(255, 200, 80, .8);
     color: white;  
     padding-left: 5px;
     }
 
-.btn-success, .btn-dark, .btn-warning{
+.btn-success, .btn-dark, .btn-warning, .btn-danger{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
     text-align: center;
+}
+
+#name{
+    margin-top: 5px;
 }

@@ -12,7 +12,7 @@
                             {{#each burgers}} {{#unless this.devoured}}
                             <div class="text-center">
                                 <form action="/burgers/{{this.id}}?_method=PUT" method="POST">
-                                    <button type="submit" class='btn btn-success btn-margin'> {{this.burger_name}}</button>
+                                    <button type="submit" class='btn btn-success btn-margin '> {{this.burger_name}}</button>
                                 </form>
                             </div>
                             {{/unless}} {{/each}}
@@ -28,7 +28,7 @@
                             <div class="d-block">
                                     {{#each burgers}} {{#if this.devoured}}
                                     <div class='text-center'>
-                                        <div class="btn btn-dark btn-margin">
+                                        <div class="btn btn-danger btn-margin">
                                             {{this.burger_name}}
                                         </div>
                                     </div>
@@ -46,7 +46,7 @@
                     <div class="panel-heading">Build your very own amazing burger!</div>
                     <div class="panel-body" id="mealSection">
                             <form action="/burgers" method="POST">
-                                <input type="text" class="form-control btn-margin" id="name" name="burger_name">
+                                <input type="text" class="form-control" id="name" name="burger_name">
                                 <br>
                                 <button type="submit" class="add-burger-button btn btn-warning btn-margin">Add New Burger</button>
                             </form>
