@@ -24,5 +24,9 @@ Express-Handlebars, Body-Parser, Express, MYSQL2
 ![image](https://user-images.githubusercontent.com/35242379/41886538-6145929c-78c2-11e8-93bc-a30b0f669549.png)
 
 ## Current Issues
-Heroku JAWS DB deployment is failing to recognize remote user.
+None at this time. Heroku deployment issues have been resolved.
+
+# https://serene-hamlet-42782.herokuapp.com/
+
+
 
