@@ -15,41 +15,14 @@ Express-Handlebars, Body-Parser, Express, MYSQL2
 ## Screenshot of App
 ![image](https://user-images.githubusercontent.com/35242379/41885398-72380c10-78bd-11e8-848d-d9cd4bd37104.png)
 
-### Directory structure
+## Adding a New Burger
+![image](https://user-images.githubusercontent.com/35242379/41886434-f6741010-78c1-11e8-9565-bf7b54cbfc05.png)
 
-All the recommended files and directories from the steps above should look like the following structure:
+## Devouring the New Burger We Just Added
+![image](https://user-images.githubusercontent.com/35242379/41886497-3a13f11e-78c2-11e8-98a3-9603ec2821a8.png)
 
-.
-├── config
-│   ├── connection.js
-│   └── orm.js
-│ 
-├── controllers
-│   └── burgers_controller.js
-│
-├── db
-│   ├── schema.sql
-│   └── seeds.sql
-│
-├── models
-│   └── burger.js
-│ 
-├── node_modules
-│ 
-├── package.json
-│
-├── public
-│   └── assets
-│       ├── css
-│       │   └── burger_style.css
-│       └── img
-│           └── burger.png
-│   
-│
-├── server.js
-│
-└── views
-    ├── index.handlebars
-    └── layouts
-        └── main.handlebars
+![image](https://user-images.githubusercontent.com/35242379/41886538-6145929c-78c2-11e8-93bc-a30b0f669549.png)
+
+## Current Issues
+Heroku JAWS DB deployment is failing to recognize remote user.
 
