@@ -17,7 +17,14 @@ var burger = {
         orm.updateOne('burgers', objColValues, condition, (response) => {
             cb(response);
         });
-    }
+    },
+    
+    deleteOne: (condition, cb) =>{
+        orm.deleteOne('burgers', condition, (response) => {
+          cb(response);
+        });
+      }
+
 };
 
 module.exports = burger;

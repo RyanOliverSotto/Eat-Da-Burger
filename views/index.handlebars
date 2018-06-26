@@ -25,15 +25,13 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Devoured Burgers</div>
                     <div class="panel-body buttonSection">
-                            <div class="d-block">
                                     {{#each burgers}} {{#if this.devoured}}
                                     <div class='text-center'>
-                                        <div class="btn btn-danger btn-margin">
-                                            {{this.burger_name}}
-                                        </div>
+                                        <form action="/burgers/{{this.id}}?_method=DELETE" method="DELETE">                                        
+                                            <button type="submit" class="btn btn-danger btn-margin">{{this.burger_name}}</button>
+                                        </form>
                                     </div>
                                     {{/if}} {{/each}}
-                                    </div>
                     </div>
                 </div>
                 <!--End panel-->
