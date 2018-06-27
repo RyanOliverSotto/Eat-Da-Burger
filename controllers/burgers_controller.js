@@ -36,15 +36,15 @@ router.delete('/burgers/:id', function (request, response) {
     var condition = 'id = ' + request.params.id;
     
     burger.deleteOne(condition, function (result) {
-        if (result.affectedRows == 0) {
+        /*if (result.affectedRows == 0) {
             // If no rows were changed, then the ID must not exist, so 404
-            return res.status(404).end();
+            return result.status(404).end();
         } else {
-            res.status(200).end();
-        }
+            return result.status(200).end();
+        }*/
+        console.log(result);
         response.redirect('/');
     });
 });
-
 
 module.exports = router;

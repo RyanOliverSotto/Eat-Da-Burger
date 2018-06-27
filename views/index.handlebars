@@ -27,7 +27,7 @@
                     <div class="panel-body buttonSection">
                                     {{#each burgers}} {{#if this.devoured}}
                                     <div class='text-center'>
-                                        <form action="/burgers/{{this.id}}?_method=DELETE" method="DELETE">                                        
+                                        <form action="/burgers/{{this.id}}?_method=DELETE" method="POST">                                        
                                             <button type="submit" class="btn btn-danger btn-margin">{{this.burger_name}}</button>
                                         </form>
                                     </div>
