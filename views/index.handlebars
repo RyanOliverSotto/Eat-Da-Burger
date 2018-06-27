@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Burgers on the Menu</div>
+                    <div class="panel-heading">Burgers on the Menu: Click to Devour</div>
                     <div class="panel-body buttonSection">
                             {{#each burgers}} {{#unless this.devoured}}
                             <div class="text-center">
@@ -23,7 +23,7 @@
             <!--End div sm 6-->
             <div class="col-sm-6">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Devoured Burgers</div>
+                    <div class="panel-heading">Devoured Burgers: Click to Delete</div>
                     <div class="panel-body buttonSection">
                                     {{#each burgers}} {{#if this.devoured}}
                                     <div class='text-center'>
