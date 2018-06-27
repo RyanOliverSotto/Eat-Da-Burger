@@ -9,6 +9,7 @@ body{
 .svg {
     height: 100px;
     width: 100px;
+    margin-top: 5px;
 }
 
 p{
